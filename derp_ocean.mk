@@ -22,5 +22,6 @@ PRODUCT_MODEL := moto g(7) power
 PRODUCT_NAME := derp_ocean
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=ocean \
-    PRIVATE_BUILD_DESC="ocean-user 10 QPOS30.52-29-12 401fd release-keys"
+    BuildDesc="ocean-user 10 QPOS30.52-29-12 401fd release-keys" \
+    BuildFingerprint=motorola/ocean/ocean:10/QPOS30.52-29-12/401fd:user/release-keys \
+    DeviceName=ocean
